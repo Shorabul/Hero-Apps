@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const AppCard = ({ app }) => {
-    const { image, title } = app;
+    const { id, image, title } = app;
     return (
-        <div className="card bg-base-100 w-87 shadow-sm">
+        <Link to={`/app/${id}`} className="card bg-base-100 w-87 shadow-sm">
             <figure>
                 <img src={image} alt={title} />
             </figure>
@@ -14,7 +15,7 @@ const AppCard = ({ app }) => {
                     <div className="badge badge-outline">Products</div>
                 </div>
             </div>
-        </div>
+        </Link>
     );
 };
 
