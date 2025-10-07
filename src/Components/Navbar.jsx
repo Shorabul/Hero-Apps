@@ -10,7 +10,7 @@ const Navbar = () => {
 
                 <figure className='nav-img-logo'>
                     <img className='nav-img' src="/logo.png" alt="logo" />
-                    <Link to='/'><a className="nav-text">HERO.IO</a></Link>
+                    <Link to='/' className="nav-text">HERO.IO</Link>
                 </figure>
             </div>
             <div className="navbar-center hidden lg:flex">
