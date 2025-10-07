@@ -1,0 +1,19 @@
+.banner-title {
+    font-weight: bold;
+    font-size: 72px;
+}
+
+.banner-text-productive {
+    background: linear-gradient(to right, #632EE3, #9F62F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-description {
+    color: #627382;
+    font-size: 20px;
+}
+
+.banner-trusted {
+    background: linear-gradient(to right, #632EE3, #9F62F2);
+}

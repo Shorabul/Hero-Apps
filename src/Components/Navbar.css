@@ -1,0 +1,26 @@
+.nav-img-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-img {
+    max-height: 40px;
+    max-width: 40px;
+}
+
+.nav-text {
+    font-weight: bold;
+    background: linear-gradient(to right, #632EE3, #9F62F2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-btn {
+    background: linear-gradient(to right, #632EE3, #9F62F2);
+    color: white;
+    font-weight: 600;
+}
+
+.nav-btn-github {
+    color: black;
+}
