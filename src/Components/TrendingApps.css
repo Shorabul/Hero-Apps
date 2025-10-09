@@ -1,5 +1,13 @@
+.trending-apps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .show-all-btn {
     background: linear-gradient(to right, #632EE3, #9F62F2);
     color: white;
     font-weight: 600;
+    border-radius: 8px;
 }

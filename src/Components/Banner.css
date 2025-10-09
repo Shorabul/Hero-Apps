@@ -1,19 +1,42 @@
-.banner-title {
-    font-weight: bold;
-    font-size: 72px;
-}
-
 .banner-text-productive {
     background: linear-gradient(to right, #632EE3, #9F62F2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.banner-description {
-    color: #627382;
-    font-size: 20px;
+.banner-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    font-weight: 600;
+    background: white;
+    color: #001931;
+    border: 1px solid #D2D2D2;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.banner-btn:hover {
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+
+.banner-btn:active {
+    transform: scale(0.98);
+    background-color: #632EE3;
+    color: white;
 }
 
 .banner-trusted {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
     background: linear-gradient(to right, #632EE3, #9F62F2);
 }

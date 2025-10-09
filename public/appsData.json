@@ -1,76 +1,76 @@
 [
     {
         "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
-        "title": "TaskMaster",
-        "companyName": "ZenSoft",
+        "title": "Meow Manager",
+        "companyName": "PurrSoft",
         "id": 1,
-        "description": "Organize your life with smart to-do lists and reminders.",
-        "size": 45,
-        "reviews": 1200,
-        "ratingAvg": 4.5,
-        "downloads": 500000,
+        "description": "MeowManager is the ultimate productivity companion for your feline overlord. Designed specifically for cat owners and their pampered pets, MeowManager helps you schedule feeding times, track vet appointments, organize play sessions, and monitor your cat’s moods and behaviors — all in one sleek, easy-to-use app. Receive intelligent reminders for litter box cleaning, set up recurring treat time alerts, and store important health records. With AI-powered behavior insights and real-time nap analytics, MeowManager ensures you’re always one paw ahead when it comes to your cat’s care. Because your cat deserves nothing but the best.",
+        "size": 32,
+        "reviews": 942,
+        "ratingAvg": 4.8,
+        "downloads": 230000,
         "ratings": [
             {
-                "name": "1 star",
-                "count": 50
+                "name": "1 paw",
+                "count": 20
             },
             {
-                "name": "2 star",
-                "count": 80
+                "name": "2 paws",
+                "count": 35
             },
             {
-                "name": "3 star",
-                "count": 150
+                "name": "3 paws",
+                "count": 120
             },
             {
-                "name": "4 star",
-                "count": 300
+                "name": "4 paws",
+                "count": 250
             },
             {
-                "name": "5 star",
-                "count": 620
+                "name": "5 paws",
+                "count": 517
             }
         ]
     },
     {
-        "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
-        "title": "FitTrack",
-        "companyName": "PulseTech",
+        "image": "https://i.ibb.co/DDVYmFJ4/demo-app-2.webp",
+        "title": "Plant Pal",
+        "companyName": "GreenRoot Labs",
         "id": 2,
-        "description": "Track workouts, calories, and progress with ease.",
-        "size": 60,
-        "reviews": 980,
-        "ratingAvg": 4.2,
-        "downloads": 350000,
+        "description": "PlantPal is your intelligent plant care assistant, designed for beginners and seasoned plant parents alike. Whether you’re managing a single succulent or an entire indoor jungle, PlantPal helps you stay on top of watering schedules, sunlight needs, and growth tracking. The app offers personalized care tips based on your plant species, weather integration for outdoor plants, and AI-powered plant identification just by snapping a photo. Never forget to water again with smart reminders and get expert guidance to rescue struggling plants. PlantPal helps you grow healthy, happy plants — one leaf at a time.",
+        "size": 58,
+        "reviews": 1830,
+        "ratingAvg": 4.7,
+        "downloads": 750000,
         "ratings": [
             {
-                "name": "1 star",
-                "count": 40
+                "name": "1 leaf",
+                "count": 770
             },
             {
-                "name": "2 star",
-                "count": 70
+                "name": "2 leaves",
+                "count": 970
             },
             {
-                "name": "3 star",
-                "count": 130
+                "name": "3 leaves",
+                "count": 2240
             },
             {
-                "name": "4 star",
-                "count": 290
+                "name": "4 leaves",
+                "count": 5510
             },
             {
-                "name": "5 star",
-                "count": 450
+                "name": "5 leaves",
+                "count": 9000
             }
         ]
     },
     {
-        "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
+        "image": "https://i.ibb.co/KxpXR9P7/demo-app-3.webp",
         "title": "PhotoGenie",
         "companyName": "PixelForge",
         "id": 3,
-        "description": "Edit photos like a pro with AI-powered tools.",
+        "description": "PixelPerfect AI is a next-gen photo editing app that uses powerful artificial intelligence to transform your images with just a tap. Whether you want to remove backgrounds, enhance lighting, retouch portraits, or apply cinematic filters, our AI does the heavy lifting instantly. Say goodbye to manual masking and complex tools — PixelPerfect offers features like AI skin smoothing, object removal, sky replacement, and style transfer, all in real-time. Ideal for content creators, photographers, and everyday users who want studio-quality results in seconds.",
         "size": 80,
         "reviews": 2100,
         "ratingAvg": 4.7,
@@ -78,32 +78,32 @@
         "ratings": [
             {
                 "name": "1 star",
-                "count": 60
+                "count": 960
             },
             {
                 "name": "2 star",
-                "count": 90
+                "count": 990
             },
             {
                 "name": "3 star",
-                "count": 180
+                "count": 1180
             },
             {
                 "name": "4 star",
-                "count": 400
+                "count": 4400
             },
             {
                 "name": "5 star",
-                "count": 1370
+                "count": 11370
             }
         ]
     },
     {
-        "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
+        "image": "https://i.ibb.co/KpdMPfvv/demo-app-5.webp",
         "title": "MindEase",
         "companyName": "CalmNest",
         "id": 4,
-        "description": "Meditation and mindfulness for everyday stress relief.",
+        "description": "MindEase is your personal guide to daily mindfulness and stress relief. With guided meditations, breathing exercises, sleep stories, and calming music, the app helps you unwind and reset your mind anytime, anywhere. Whether you're dealing with anxiety, struggling to sleep, or simply need a mindful moment, MindEase provides scientifically backed tools to support mental wellness. Designed for busy lives, our sessions range from 2-minute quick breaks to full 30-minute deep meditations. Calm your thoughts, improve focus, and build a consistent mindfulness routine — one breath at a time.",
         "size": 50,
         "reviews": 1500,
         "ratingAvg": 4.6,
@@ -127,49 +127,49 @@
             },
             {
                 "name": "5 star",
-                "count": 900
+                "count": 9900
             }
         ]
     },
     {
-        "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
-        "title": "BudgetBuddy",
+        "image": "https://i.ibb.co/fGL7FNPX/Budget-Buddy.webp",
+        "title": "Budget Buddy",
         "companyName": "FinWise",
         "id": 5,
-        "description": "Manage your finances and track spending effortlessly.",
-        "size": 35,
+        "description": "MindEase is your personal guide to daily mindfulness and stress relief. With guided meditations, breathing exercises, sleep stories, and calming music, the app helps you unwind and reset your mind anytime, anywhere. Whether you're dealing with anxiety, struggling to sleep, or simply need a mindful moment, MindEase provides scientifically backed tools to support mental wellness. Designed for busy lives, our sessions range from 2-minute quick breaks to full 30-minute deep meditations. Calm your thoughts, improve focus, and build a consistent mindfulness routine — one breath at a time.",
+        "size": 50,
         "reviews": 1100,
-        "ratingAvg": 4.3,
-        "downloads": 600000,
+        "ratingAvg": 4.6,
+        "downloads": 800000,
         "ratings": [
             {
                 "name": "1 star",
-                "count": 45
+                "count": 5545
             },
             {
                 "name": "2 star",
-                "count": 85
+                "count": 885
             },
             {
                 "name": "3 star",
-                "count": 160
+                "count": 1160
             },
             {
                 "name": "4 star",
-                "count": 310
+                "count": 33310
             },
             {
                 "name": "5 star",
-                "count": 500
+                "count": 55500
             }
         ]
     },
     {
-        "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
-        "title": "TravelMate",
+        "image": "https://i.ibb.co/KxW27DNS/Wego-Flights-Hotels-Travel.webp",
+        "title": "TravelMate - Flights, Hotels, Travel",
         "companyName": "GlobeTrek",
         "id": 6,
-        "description": "Plan trips, book hotels, and explore destinations.",
+        "description": "TravelMate is your all-in-one travel companion for planning, booking, and managing trips effortlessly. Discover the best flight deals, compare hotel prices, and explore top-rated destinations around the world. Whether you're organizing a weekend getaway or a long-haul adventure, TravelMate offers smart itinerary tools, real-time flight tracking, and personalized travel recommendations. Save time and money with exclusive in-app discounts, user reviews, and flexible booking options. Wherever your journey takes you, TravelMate helps you get there — stress-free and in style.",
         "size": 70,
         "reviews": 1800,
         "ratingAvg": 4.4,
@@ -198,11 +198,11 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
+        "image": "https://i.ibb.co/Y4K3VvZ2/NoteNest.webp",
         "title": "NoteNest",
         "companyName": "PaperTrail",
         "id": 7,
-        "description": "Take notes, organize ideas, and sync across devices.",
+        "description": "NoteNest is your lightweight, yet powerful note-taking companion designed for students, professionals, and everyday thinkers. Capture ideas on the go, create structured notebooks, and sync seamlessly across all your devices. From grocery lists to meeting minutes and creative brainstorming, NoteNest keeps everything organized and accessible. Features include rich text formatting, color-coded folders, voice-to-text, and offline mode — all wrapped in a distraction-free interface. Whether you're planning your next big project or just jotting down a quick thought, NoteNest helps you stay productive and in control.",
         "size": 40,
         "reviews": 900,
         "ratingAvg": 4.1,
@@ -231,11 +231,11 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
-        "title": "CookCraft",
+        "image": "https://i.ibb.co/zVRXRgWN/unnamed.webp",
+        "title": "Savorly - Recipes & Meal Planner",
         "companyName": "KitchenLab",
         "id": 8,
-        "description": "Discover recipes and create shopping lists with ease.",
+        "description": "Savorly is your ultimate kitchen companion — discover new recipes, plan meals, and create smart shopping lists effortlessly. Whether you're a beginner learning the basics or a seasoned home chef looking for inspiration, Savorly helps you explore dishes from around the world with step-by-step instructions, prep timers, and dietary filters. Save your favorite recipes, build weekly meal plans, and generate grocery lists instantly. With a clean interface and personalized recommendations, Savorly makes cooking at home simpler, smarter, and more delicious.",
         "size": 55,
         "reviews": 1300,
         "ratingAvg": 4.5,
@@ -264,11 +264,11 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
-        "title": "LangLeap",
+        "image": "https://i.ibb.co/SXC1MkJy/do.webp",
+        "title": "LangLeap: Fun Language Learning",
         "companyName": "PolyLingua",
         "id": 9,
-        "description": "Learn new languages with interactive lessons and games.",
+        "description": "LangLeap makes language learning fun, effective, and personalized. Whether you're starting from scratch or brushing up on your skills, LangLeap offers bite-sized lessons, interactive games, and real-world conversations to help you speak confidently. Choose from over 30 languages and progress at your own pace with AI-powered lesson paths, speech recognition for pronunciation practice, and daily challenges to stay motivated. Perfect for travel, study, or career advancement, LangLeap fits seamlessly into your day — just 10 minutes a day can make a difference.",
         "size": 65,
         "reviews": 2000,
         "ratingAvg": 4.8,
@@ -297,11 +297,11 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
-        "title": "SecureVault",
+        "image": "https://i.ibb.co/BV0gHNHB/unnamed-1.webp",
+        "title": "SecureVault: Password Manager & Safe",
         "companyName": "LockBox",
         "id": 10,
-        "description": "Store passwords and sensitive data securely.",
+        "description": "SecureVault is your trusted digital safe for storing passwords, credit cards, and sensitive personal data. Protect your information with military-grade encryption and access it easily with biometric login or a master password. Generate strong, unique passwords, autofill login details, and sync securely across all your devices. With SecureVault, your private data",
         "size": 30,
         "reviews": 800,
         "ratingAvg": 4.2,
@@ -330,11 +330,11 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
-        "title": "WeatherWise",
+        "image": "https://i.ibb.co/Kjxm7WBW/weather.webp",
+        "title": "Weather: Live Forecasts & Alerts",
         "companyName": "SkyCast",
         "id": 11,
-        "description": "Accurate forecasts and live weather alerts.",
+        "description": "WeatherWise delivers accurate, up-to-the-minute weather forecasts and real-time alerts to keep you prepared for whatever the day brings. From hourly updates and 7-day forecasts to severe weather warnings, WeatherWise uses advanced radar and satellite data to provide you with reliable information. Customize alerts for rain, storms, and temperature changes, and plan your day with confidence no matter where you are.",
         "size": 25,
         "reviews": 950,
         "ratingAvg": 4.3,
@@ -363,11 +363,11 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
-        "title": "StreamZone",
+        "image": "https://i.ibb.co/FLnXNxLG/unnamed-2.webp",
+        "title": "Stream Zone: Movies, TV & Live Shows",
         "companyName": "MediaNest",
         "id": 12,
-        "description": "Watch movies and shows anytime, anywhere.",
+        "description": "StreamZone lets you watch your favorite movies and TV shows anytime, anywhere. Enjoy a vast library of on-demand content, from the latest blockbusters to timeless classics, all in stunning HD. Customize your watchlist, get personalized recommendations, and download your favorite titles for offline viewing. Whether you’re at home or on the go, StreamZone brings entertainment right to your fingertips.",
         "size": 90,
         "reviews": 3000,
         "ratingAvg": 4.6,
@@ -396,11 +396,11 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
+        "image": "https://i.ibb.co/j9yDsbRr/demo-app-4.webp",
         "title": "GameRush",
         "companyName": "PlayForge",
         "id": 13,
-        "description": "Fast-paced mobile games for all ages.",
+        "description": "GameRush delivers an adrenaline-pumping collection of fast-paced mobile games designed for all ages. Whether you're into endless runners, arcade classics, or quick puzzle challenges, GameRush has something to keep your thumbs busy and your mind sharp. Enjoy beautifully crafted visuals, intuitive controls, and new games added regularly to keep things fresh. Perfect for short breaks or long play sessions, GameRush is your one-stop hub for high-speed mobile entertainment. Compete in global leaderboards, earn rewards, and unlock achievements as you level up your gaming experience.",
         "size": 85,
         "reviews": 2500,
         "ratingAvg": 4.4,
@@ -429,11 +429,11 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
-        "title": "ShopSmart",
+        "image": "https://i.ibb.co/xVnBvXh/unnamed-3.webp",
+        "title": "Shopper",
         "companyName": "RetailEdge",
         "id": 14,
-        "description": "Compare prices and find deals across stores.",
+        "description": "Discover the ultimate shopping companion with SmartShopper Pro! Effortlessly compare prices from hundreds of stores to find the best deals, discounts, and promotions available. Whether you’re shopping for groceries, electronics, clothing, or household items, Shopper helps you save time and money by showing real-time price comparisons and exclusive offers. Stay ahead with personalized deal alerts, user reviews, and a seamless interface designed to make your shopping smarter and more efficient. Never miss out on a great bargain again!",
         "size": 38,
         "reviews": 1000,
         "ratingAvg": 4.2,
@@ -462,11 +462,11 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
-        "title": "Readify",
+        "image": "https://i.ibb.co/xtkcYmZ1/unnamed-4.webp",
+        "title": "Readify: 5-Min Book Summaries",
         "companyName": "BookNest",
         "id": 15,
-        "description": "Read and listen to thousands of books on the go.",
+        "description": "Readify is your go-to app for quick, insightful book summaries that you can read in just 5 minutes! Perfect for busy readers who want to absorb key ideas from bestsellers, business books, self-help, and more without spending hours. Each summary is carefully crafted to capture the core messages, actionable tips, and essential takeaways, helping you learn faster and stay informed. Whether you’re commuting, on a break, or just want to explore new topics, Readify makes knowledge accessible anytime, anywhere. Unlock the power of reading more in less time with Readify!",
         "size": 75,
         "reviews": 2200,
         "ratingAvg": 4.7,
@@ -495,11 +495,11 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
+        "image": "https://i.ibb.co/Kch8Qkq6/unnamed-5.webp",
         "title": "HealthSync",
         "companyName": "WellCore",
         "id": 16,
-        "description": "Sync health data across devices and apps.",
+        "description": "Effortlessly sync your health data across all your devices and favorite apps with our seamless health data hub. Whether you’re tracking workouts, monitoring sleep, managing nutrition, or keeping an eye on vital stats, our app ensures your information is always up-to-date and accessible wherever you need it. Connect multiple health platforms and devices in one place, enabling you to get a comprehensive view of your wellness journey. Stay motivated, track progress, and make informed decisions with real-time data synchronization designed to keep your health insights in perfect harmony.",
         "size": 42,
         "reviews": 1050,
         "ratingAvg": 4.3,
@@ -528,44 +528,44 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
-        "title": "DailyJournal",
+        "image": "https://i.ibb.co/rRwyx3t5/demo-app-6.webp",
+        "title": "Daily Planner",
         "companyName": "MindLog",
         "id": 17,
         "description": "Capture thoughts and track your emotional well-being.",
         "size": 36,
-        "reviews": 870,
-        "ratingAvg": 4.4,
-        "downloads": 410000,
+        "reviews": 1870,
+        "ratingAvg": 4.7,
+        "downloads": 4410000,
         "ratings": [
             {
                 "name": "1 star",
-                "count": 25
+                "count": 2225
             },
             {
                 "name": "2 star",
-                "count": 45
+                "count": 4445
             },
             {
                 "name": "3 star",
-                "count": 110
+                "count": 11110
             },
             {
                 "name": "4 star",
-                "count": 280
+                "count": 22280
             },
             {
                 "name": "5 star",
-                "count": 410
+                "count": 44410
             }
         ]
     },
     {
-        "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
+        "image": "https://i.ibb.co/84N7WfwF/unnamed-6.webp",
         "title": "QuizQuest",
         "companyName": "EduSpark",
         "id": 18,
-        "description": "Challenge your brain with fun quizzes and trivia.",
+        "description": "Embark on an exciting journey of knowledge with QuizQuest – the ultimate quiz app for curious minds! Challenge yourself with thousands of questions across a wide range of categories including general knowledge, science, history, pop culture, sports, tech, and more. Whether you're playing solo, competing with friends, or joining global leaderboards, QuizQuest keeps your brain sharp and your spirit competitive. With daily challenges, timed quizzes, and themed trivia packs, every session is a new adventure. Unlock achievements, track your progress, and level up as you master topics and climb the ranks. Perfect for casual fun or serious brain training, QuizQuest makes learning addictive and entertaining.",
         "size": 48,
         "reviews": 1400,
         "ratingAvg": 4.5,
@@ -594,68 +594,68 @@
         ]
     },
     {
-        "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
-        "title": "PetPal",
-        "companyName": "FurTech",
+        "image": "https://i.ibb.co/hJZnSvkq/unnamed-7.webp",
+        "title": "Bolt: Request a Ride",
+        "companyName": "SwiftMove Technologies",
         "id": 19,
-        "description": "Track pet health, appointments, and daily care.",
-        "size": 33,
-        "reviews": 600,
-        "ratingAvg": 4.2,
-        "downloads": 280000,
+        "description": "Book safe, fast, and affordable rides anytime with Bolt. Whether you're commuting to work, heading out with friends, or catching a late-night ride, RideNow connects you with nearby drivers in seconds. Real-time tracking, upfront pricing, and multiple ride options make your journey smooth and stress-free. Enjoy 24/7 service, in-app support, and secure payments—all from one easy-to-use app.",
+        "size": 52,
+        "reviews": 5400,
+        "ratingAvg": 4.5,
+        "downloads": 2200000,
         "ratings": [
             {
                 "name": "1 star",
-                "count": 20
+                "count": 150
             },
             {
                 "name": "2 star",
-                "count": 35
+                "count": 240
             },
             {
                 "name": "3 star",
-                "count": 90
+                "count": 520
             },
             {
                 "name": "4 star",
-                "count": 210
+                "count": 1600
             },
             {
                 "name": "5 star",
-                "count": 245
+                "count": 2890
             }
         ]
     },
     {
-        "image": "https://i.ibb.co/wNMcdF70/demo-app-1.webp",
-        "title": "VoiceBox",
-        "companyName": "SpeakEasy",
-        "id": 20,
-        "description": "Record, edit, and share voice notes instantly.",
-        "size": 29,
-        "reviews": 720,
-        "ratingAvg": 4.3,
-        "downloads": 330000,
+        "image": "https://i.ibb.co/p67p18pX/unnamed-8.webp",
+        "title": "MoneyMate",
+        "companyName": "Finovate Labs",
+        "id": 21,
+        "description": "Take control of your finances with MoneyMate. Track your expenses, set savings goals, and manage budgets effortlessly. Get smart insights, automatic categorization, and weekly reports to help you build better financial habits.",
+        "size": 28,
+        "reviews": 3100,
+        "ratingAvg": 4.7,
+        "downloads": 1500000,
         "ratings": [
             {
                 "name": "1 star",
-                "count": 25
+                "count": 70
             },
             {
                 "name": "2 star",
-                "count": 50
+                "count": 95
             },
             {
                 "name": "3 star",
-                "count": 100
+                "count": 300
             },
             {
                 "name": "4 star",
-                "count": 240
+                "count": 900
             },
             {
                 "name": "5 star",
-                "count": 305
+                "count": 1735
             }
         ]
     }
