@@ -4,3 +4,23 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.install-btn {
+    background-color: #00D390;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+}
+
+.install-btn:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.install-btn:not(:disabled):hover {
+    background-color: #00b87c;
+    transform: scale(1.02);
+}

@@ -12,8 +12,8 @@ const Banner = () => {
                         <div className='flex justify-center gap-4 my-[40px]'>
                             {/* <button className="flex justify-between items-center gap-2.5 bg-white py-3 px-6 border-1 border-[#D2D2D2] rounded-md banner-btn"><img className='h-8 w-8' src="/google-play-logo.png" alt="" /> Google Play</button>
                             <button className="flex justify-between items-center gap-2.5 bg-white py-3 px-6 border-1 border-[#D2D2D2] rounded-md banner-btn"><img className='h-8 w-8' src="/app-store-logo.png" alt="" /> Google Play</button> */}
-                            <button className="banner-btn py-1 md:py-2 lg:py-3 px-2 md:px-4 ld:px-6 text-xs md:text-sm lg:text-base"><img className='h-5 w-5 lg:h-8 lg:w-8' src="/google-play-logo.png" alt="" /> Google Play</button>
-                            <button className="banner-btn py-1 md:py-2 lg:py-3 px-2.5 md:px-4.5 ld:px-6.5 text-xs md:text-sm lg:text-base"><img className='h-5 w-5 lg:h-8 lg:w-8' src="/app-store-logo.png" alt="" /> App Store</button>
+                            <button onClick={() => window.open('https://play.google.com/store/games?hl=en', '_blank')} className="banner-btn py-1 md:py-2 lg:py-3 px-2 md:px-4 ld:px-6 text-xs md:text-sm lg:text-base"><img className='h-5 w-5 lg:h-8 lg:w-8' src="/google-play-logo.png" alt="" /> Google Play</button>
+                            <button onClick={() => window.open('https://www.apple.com/app-store/', '_blank')} className="banner-btn py-1 md:py-2 lg:py-3 px-2.5 md:px-4.5 ld:px-6.5 text-xs md:text-sm lg:text-base"><img className='h-5 w-5 lg:h-8 lg:w-8' src="/app-store-logo.png" alt="" /> App Store</button>
                         </div>
                     </div>
                     <figure className='max-h-[1095px] max-w-[642px]'>

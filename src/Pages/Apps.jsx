@@ -1,60 +1,120 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import AppCard from '../Components/AppCard';
 import useApps from '../Hooks/useApps';
 import Loading from '../Components/Loading';
 import { Search } from 'lucide-react';
 import './Apps.css';
+import NotFound from '../Components/NotFound';
+import NoAppsFound from '../Components/NoAppsFound';
+import ShowLoadingForOneSecond from '../Components/ShowLoadingForOneSecond';
 
 const Apps = () => {
     const { apps, loading } = useApps();
     const [search, setSearch] = useState('');
-    // if (loading) {
-    //     return ;
-    // }
+    const [showInitialLoading, setShowInitialLoading] = useState(true);
+    const [searchLoading, setSearchLoading] = useState(false);
+
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setShowInitialLoading(false);
+        }, 1000); // 1 second
+        return () => clearTimeout(timer);
+    }, []);
+    if (showInitialLoading) {
+        return (<div className='flex justify-center items-center min-h-[50vh]'>
+            <ShowLoadingForOneSecond />
+        </div>)
+    }
+
     const userInput = search.trim().toLocaleLowerCase();
     const searchApps = search ?
-        apps.filter(app => app.title.toLocaleLowerCase().includes(userInput))
+        apps.filter(app => (
+            app.title.toLocaleLowerCase().includes(userInput)
+        ))
         : apps;
     return (
+        <div className="w-full mx-auto px-4 sm:px-6 lg:px-8 flex flex-col ">
 
-        <div className='w-11/12 mx-auto'>
-
-            <div className='flex flex-col justify-center items-center'>
-                <div className='text-center space-y-1 md:space-y-2 lg:space-y-3'>
-                    <h1 className='text-xl md:text-3xl lg:text-5xl font-semibold'>Our All Applications</h1>
-                    <p className='text-[#627382]'>Explore All Apps on the Market developed by us. We code for Millions</p>
-                </div>
-
-                <div className={`${loading ? 'flex justify-center items-center min-h-[35vh]' : 'hidden'}`}>
-                    <Loading></Loading>
-                </div>
-
-                <div className={`${loading ? 'hidden' : 'block'}`}>
-                    <div className='flex justify-between items-center mt-10 md:mt-6 lg:mt-10'>
-                        <h1 className='text-base md:text-xl lg:text-3xl font-semibold'>({searchApps.length}) Apps Found</h1>
-                        <div className="max-w-full relative">
-                            <label className="relative block">
+            <div className="text-center space-y-2 sm:space-y-3 md:space-y-4">
+                <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-semibold">Our All Applications</h1>
+                <p className="text-gray-500">Explore All Apps on the Market developed by us. We code for Millions</p>
+            </div>
+            {
+                !loading && (
+                    <div className="flex flex-col md:flex-row justify-between items-center mt-6 sm:mt-8 lg:mt-10 gap-4">
+                        <h1 className="text-base sm:text-lg md:text-2xl lg:text-3xl font-semibold">
+                            ({searchApps.length}) Apps Found
+                        </h1>
+                        <div className="relative w-full sm:w-auto">
+                            <label className="relative block w-full">
                                 <span className="absolute inset-y-0 left-0 flex items-center pl-3 text-gray-400">
-                                    <Search className=" w-4 h-4 lg:w-5 lg:h-5" />
+                                    <Search className="w-4 h-4 sm:w-5 sm:h-5" />
                                 </span>
                                 <input
                                     type="search"
                                     value={search}
-                                    onChange={(e) => setSearch(e.target.value)}
+                                    onChange={(e) => {
+                                        const value = e.target.value;
+                                        setSearch(value);
+                                        setSearchLoading(true);
+                                        setTimeout(() => {
+                                            setSearchLoading(false);
+                                        }, 500);
+                                    }}
+
                                     placeholder="Search Apps"
-                                    className="text-sm md:text-base py-1 md:py-1.5 lg:py-2 px-8 md:px-16 lg:px-22 focus:pl-10 md:focus:pl-18 lg:focus:pl-24 transition-all duration-200 ease-in-out search-input"
+                                    className="w-full sm:w-[200px] md:w-[250px] lg:w-[300px] text-sm sm:text-base py-2 pl-10 pr-4 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                 />
                             </label>
                         </div>
                     </div>
-                    <div className='grid grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4 lg:gap-6 mt-4'>
-                        {
-                            searchApps.map(app => <AppCard key={app.id} app={app}></AppCard>)
-                        }
+                )
+            }
+            {/* onChange={(e) => setSearch(e.target.value)} */}
+            {/* {
+                loading && (
+                    <div className='flex justify-center items-center min-h-[50vh]'>
+                        <Loading></Loading>
+                    </div>)
+            } */}
+            {
+                (loading || searchLoading) && (
+                    <div className='flex justify-center items-center min-h-[50vh]'>
+                        <Loading />
                     </div>
-                </div>
+                )
+            }
+
+
+            {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 mt-6 w-full place-items-center">
+                {
+                    !loading && searchApps.map((app) => (<AppCard key={app.id} app={app} />))
+                }
             </div>
+            {
+                !searchApps.length && !loading && <div className='w-full flex justify-center items-center min-h-[50vh]'><NoAppsFound></NoAppsFound></div>
+            } */}
+            {
+                !loading && searchApps.length > 0 && (
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 mt-6 w-full place-items-center">
+                        {searchApps.map((app) => (
+                            <AppCard key={app.id} app={app} />
+                        ))}
+                    </div>
+                )
+            }
+
+            {
+                !searchApps.length === 0 && (
+                    <div className="w-full flex justify-center items-center min-h-[50vh]">
+                        <NoAppsFound />
+                    </div>
+                )
+            }
+
         </div>
+
     );
 };
 

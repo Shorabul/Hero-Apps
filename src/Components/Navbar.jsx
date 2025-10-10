@@ -10,23 +10,37 @@ const Navbar = () => {
         <div className=''>
             <div className="navbar shadow-sm px-5 md:px-20">
 
-                <div className="navbar-start">
 
+                {/* <div className="navbar-start">
                     <figure className='nav-img-logo'>
-                        <img className='nav-img' src="/logo.png" alt="logo" />
+                        <Link>
+                            <img className='nav-img' src="/logo.png" alt="logo" />
+                        </Link>
                         <Link to='/' className="nav-text text-[26px]">HERO.IO</Link>
                     </figure>
+                </div> */}
+                <div className="navbar-start">
+                    <figure className="nav-img-logo flex items-center gap-2">
+                        <Link to="/" className='w-6 h-6 md:w-8 md:h-8 lg:h-10 lg:w-10'>
+                            <img className="nav-img" src="/logo.png" alt="logo" />
+                        </Link>
+                        <Link to='/' className="nav-text text-lg md:xl lg:text-[26px]">
+                            <span >HERO.IO</span>
+                        </Link>
+                    </figure>
                 </div>
+
+
                 <div className="navbar-center hidden lg:flex">
                     <ul className="flex gap-8 text-[#00000090] font-semibold">
                         <li onClick={() => setTextColor('home')}>
-                            <NavLink to="/" className={`${textColor === 'home' && 'nav-menu-active'}`}>Home</NavLink>
+                            <NavLink to="/" className={`nav-menu ${textColor === 'home' && 'nav-menu-active'}`}>Home</NavLink>
                         </li>
                         <li onClick={() => setTextColor('apps')}>
-                            <NavLink to='/apps' className={`${textColor === 'apps' && 'nav-menu-active'}`}>Apps</NavLink>
+                            <NavLink to='/apps' className={`nav-menu ${textColor === 'apps' && 'nav-menu-active'}`}>Apps</NavLink>
                         </li>
                         <li onClick={() => setTextColor('installation')} >
-                            <NavLink to='/installation' className={`${textColor === 'installation' && 'nav-menu-active'}`}>Installation</NavLink>
+                            <NavLink to='/installation' className={`nav-menu ${textColor === 'installation' && 'nav-menu-active'}`}>Installation</NavLink>
                         </li>
                     </ul>
                 </div>
@@ -50,7 +64,8 @@ const Navbar = () => {
                         </ul>
                     </div>
                     {/* <button className="btn nav-btn"><span className='nav-btn-github'><Github className='bg-white' /></span> Contribute</button> */}
-                    <button className="btn nav-btn"><img src="/github.png" alt="" /> Contribute</button>
+                    <button className="btn nav-btn" onClick={() => window.open('https://github.com/Shorabul', '_blank')}><img src="/github.png" alt="" />Contribute</button>
+
                 </div>
             </div>
         </div>

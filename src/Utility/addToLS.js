@@ -11,9 +11,7 @@ const addToLocalStorage = (app) => {
     const storedAppsData = getFromLocalStorage();
     const isStoredDuplicate = storedAppsData.some(sad => sad.id === app.id);
 
-    if (isStoredDuplicate) {
-        alert('sorry');
-    } else {
+    if (!isStoredDuplicate) {
         storedAppsData.push(app);
         const updatedAppsData = JSON.stringify(storedAppsData);
         localStorage.setItem('apps', updatedAppsData);

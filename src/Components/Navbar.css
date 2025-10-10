@@ -6,6 +6,7 @@
 
 .nav-img {
     height: 100%;
+    width: 100%;
 }
 
 .nav-text {
@@ -21,6 +22,10 @@
     -webkit-text-fill-color: transparent;
     border-bottom: 1px solid transparent;
     border-image: linear-gradient(to right, #632EE3, #9F62F2) 1;
+}
+
+.nav-menu:hover {
+    color: #9F62F2;
 }
 
 .nav-btn {

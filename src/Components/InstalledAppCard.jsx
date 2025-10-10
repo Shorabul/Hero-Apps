@@ -3,11 +3,17 @@ import calculateDownloads from '../Utility/calculateDownloads';
 // import { Download, Star } from 'lucide-react';
 import { FiDownload } from "react-icons/fi";
 import { FaStar } from "react-icons/fa";
+import { toast } from 'react-toastify';
 
 const InstalledAppCard = ({ app, handleRemove }) => {
-    const { id, image, size, title, ratingAvg, downloads } = app;
+    const { image, size, title, ratingAvg, downloads } = app;
 
     const downloadsFormated = calculateDownloads(downloads);
+
+    const handleUninstall = (app) => {
+        toast.success(`${app.title} uninstalled from your Device`)
+        handleRemove(app.id);
+    }
     return (
         <div className='bg-white p-4 rounded-sm flex justify-between items-center shadow-sm'>
             <div className='flex items-center gap-4'>
@@ -34,7 +40,7 @@ const InstalledAppCard = ({ app, handleRemove }) => {
                 </div>
             </div>
             <div>
-                <button onClick={() => handleRemove(id)} className='btn bg-[#00D390] text-white'>Uninstall</button>
+                <button onClick={() => handleUninstall(app)} className={` btn bg-[#00D390] text-white`}>Uninstall</button>
             </div>
         </div>
     );
