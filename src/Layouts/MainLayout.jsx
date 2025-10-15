@@ -3,7 +3,7 @@ import Navbar from '../Components/Navbar';
 // import { Outlet } from 'react-router';
 import Footer from '../Components/Footer';
 import { Outlet } from "react-router-dom";
-import NavigationLoader from '../Components/NavigationLoader';
+// import NavigationLoader from '../Components/NavigationLoader';
 import { Bounce, ToastContainer } from 'react-toastify';
 import ShowLoadingForOneSecond from '../Components/ShowLoadingForOneSecond';
 
@@ -22,7 +22,7 @@ const MainLayout = () => {
         <div className='flex flex-col min-h-screen'>
             <Navbar />
             <div className='flex-1 bg-[#F5F5F5] py-20'>
-                <NavigationLoader />
+                {/* <NavigationLoader /> */}
                 <ToastContainer
                     position="top-right"
                     autoClose={5000}

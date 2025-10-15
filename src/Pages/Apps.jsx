@@ -34,7 +34,7 @@ const Apps = () => {
         ))
         : apps;
     return (
-        <div className="w-full mx-auto px-4 sm:px-6 lg:px-8 flex flex-col ">
+        <div className="w-[90%] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col ">
 
             <div className="text-center space-y-2 sm:space-y-3 md:space-y-4">
                 <h1 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-semibold">Our All Applications</h1>
@@ -42,7 +42,7 @@ const Apps = () => {
             </div>
             {
                 !loading && (
-                    <div className="flex flex-col md:flex-row justify-between items-center mt-6 sm:mt-8 lg:mt-10 gap-4">
+                    <div className="flex flex-col sm:flex-row justify-between items-center my-4 sm:my-6 md:my-8 lg:my-10 xl:my-12 gap-4">
                         <h1 className="text-base sm:text-lg md:text-2xl lg:text-3xl font-semibold">
                             ({searchApps.length}) Apps Found
                         </h1>
@@ -87,16 +87,21 @@ const Apps = () => {
             }
 
 
-            {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 mt-6 w-full place-items-center">
+            {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 mt-6 w-full justify-items-center">
+                {
+                    !loading && searchApps.map((app) => (<AppCard key={app.id} app={app} />))
+                }
+            </div> */}
+            <div className='grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] sm:grid-cols-[repeat(auto-fit,minmax(150px,1fr))] md:grid-cols-[repeat(auto-fit,minmax(250px,1fr))] lg:grid-cols-[repeat(auto-fit,minmax(300px,1fr))] xl:grid-cols-[repeat(auto-fit,minmax(350px,1fr))] gap-4 w-full'>
                 {
                     !loading && searchApps.map((app) => (<AppCard key={app.id} app={app} />))
                 }
             </div>
             {
                 !searchApps.length && !loading && <div className='w-full flex justify-center items-center min-h-[50vh]'><NoAppsFound></NoAppsFound></div>
-            } */}
-            {
-                !loading && searchApps.length > 0 && (
+            }
+            {/* {
+                !loading && (
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 mt-6 w-full place-items-center">
                         {searchApps.map((app) => (
                             <AppCard key={app.id} app={app} />
@@ -111,7 +116,7 @@ const Apps = () => {
                         <NoAppsFound />
                     </div>
                 )
-            }
+            } */}
 
         </div>
 

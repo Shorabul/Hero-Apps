@@ -16,7 +16,7 @@ const TrendingApps = () => {
             </div>
             {
                 loading ? <Loading></Loading> : <>
-                    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 mt-6 w-full place-items-center'>
+                    <div className='grid grid-cols-[repeat(auto-fit,minmax(100px,1fr))] sm:grid-cols-[repeat(auto-fit,minmax(150px,1fr))] md:grid-cols-[repeat(auto-fit,minmax(250px,1fr))] lg:grid-cols-[repeat(auto-fit,minmax(300px,1fr))] xl:grid-cols-[repeat(auto-fit,minmax(350px,1fr))] gap-4 w-full'>
                         {
                             trendingAppsData.map(app => <AppCard key={app.id} app={app}></AppCard>)
                         }

@@ -50,7 +50,38 @@ const AppDetails = () => {
         toast.success(`Yahoo!! ${app.title} Installed Successfully`);
         addToLocalStorage(app);
     };
-
+    function splitDescription(description) {
+        // let newDes = [];
+        // const sentences1 = description.split('. ');
+        const sentences = description.split('.').filter(s => s.trim() !== '');
+        const partSize = Math.ceil(sentences.length / 3);
+        if (sentences.length === 1) {
+            let part1 = sentences.slice(0, partSize).join('. ') + ".";
+            return [part1];
+        }
+        if (sentences.length % 2 !== 0) {
+            let part1 = sentences.slice(0, partSize).join('. ') + ".";
+            let part2 = sentences.slice(partSize, partSize * 2).join('. ') + ".";
+            let part3 = sentences.slice(partSize * 2).join('. ') + ".";
+            return [part1, part2, part3];
+        } else {
+            let part1 = sentences.slice(0, partSize).join('. ') + ".";
+            let part2 = sentences.slice(partSize, partSize * 2).join('. ') + ".";
+            return [part1, part2];
+        }
+        // if (part1.length > 1) {
+        //     newDes.push(part1);
+        // }
+        // if (part2.length > 1) {
+        //     // part2 = part2 + '.';
+        //     newDes.push(part2);
+        // }
+        // if (part3.length > 1) {
+        //     // part3 = part3 + ".";
+        //     newDes.push(part3);
+        // }
+    }
+    const des = splitDescription(description);
     return (
         <div className='w-11/12 mx-auto space-y-10'>
             <div className='flex flex-col md:flex-row md:items-stretch gap-10'>
@@ -119,7 +150,10 @@ const AppDetails = () => {
 
             <div className='space-y-3'>
                 <h1 className='font-semibold text-lg md:text-xl lg:text-2xl'>Description</h1>
-                <p className='text-[#627382] text-base md:text-lg lg:text-xl'>{description}</p>
+
+                {
+                    des.map((part, index) => <p key={index} className='text-[#627382] text-base md:text-lg lg:text-xl'>{part}</p>)
+                }
             </div>
         </div>
     );

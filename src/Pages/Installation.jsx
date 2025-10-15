@@ -1,19 +1,32 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { getFromLocalStorage, removeFromLocalStorage } from '../Utility/addToLS';
 import InstalledAppCard from '../Components/InstalledAppCard';
 // import useApps from '../Hooks/useApps';
 import { FaLongArrowAltRight } from "react-icons/fa";
+import ShowLoadingForOneSecond from '../Components/ShowLoadingForOneSecond';
 
 
 const Installation = () => {
     const [newStor, setNewStor] = useState(() => getFromLocalStorage());
     const [sort, setSort] = useState('none');
+    const [showInitialLoading, setShowInitialLoading] = useState(true);
 
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setShowInitialLoading(false);
+        }, 1000);
+        return () => clearTimeout(timer);
+    }, []);
+    if (showInitialLoading) {
+        return (<div className='flex justify-center items-center min-h-[50vh]'>
+            <ShowLoadingForOneSecond />
+        </div>)
+    }
     const sortedItem = (() => {
         if (sort === 'size-asc') {
-            return [...newStor].sort((a, b) => a.size - b.size);
+            return [...newStor].sort((a, b) => a.downloads - b.downloads);
         } else if (sort === 'size-desc') {
-            return [...newStor].sort((a, b) => b.size - a.size);
+            return [...newStor].sort((a, b) => b.downloads - a.downloads);
         } else {
             return newStor;
         }
@@ -26,8 +39,8 @@ const Installation = () => {
     return (
         <div className='w-11/12 mx-auto space-y-6 md:space-y-8 lg:space-y-10'>
             <div className='text-center space-y-3'>
-                <h1 className='text-xl md:text-3xl lg:text-5xl font-semibold'>Our All Applications</h1>
-                <p className='text-[#627382]'>Explore All Apps on the Market developed by us. We code for Millions</p>
+                <h1 className='text-xl md:text-3xl lg:text-5xl font-semibold'>Your Installed Apps</h1>
+                <p className='text-[#627382]'>Explore All Trending Apps on the Market developed by us</p>
             </div>
             <div>
                 <div className='flex justify-between items-center mb-4'>
@@ -35,7 +48,7 @@ const Installation = () => {
                     <label className='form-control max-w-xs text-[#627382]'>
                         <label className="form-control max-w-xs text-[#627382]">
                             <select value={sort} onChange={e => setSort(e.target.value)} className="select select-primary">
-                                <option value="none">Sort By Size</option>
+                                <option value="none">Sort By Downloads</option>
                                 <option value="size-asc">Low <FaLongArrowAltRight /> High</option>
                                 <option value="size-desc">High <FaLongArrowAltRight /> Low</option>
                             </select>

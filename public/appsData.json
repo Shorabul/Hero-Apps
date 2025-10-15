@@ -4,30 +4,30 @@
         "title": "Meow Manager",
         "companyName": "PurrSoft",
         "id": 1,
-        "description": "MeowManager is the ultimate productivity companion for your feline overlord. Designed specifically for cat owners and their pampered pets, MeowManager helps you schedule feeding times, track vet appointments, organize play sessions, and monitor your cat’s moods and behaviors — all in one sleek, easy-to-use app. Receive intelligent reminders for litter box cleaning, set up recurring treat time alerts, and store important health records. With AI-powered behavior insights and real-time nap analytics, MeowManager ensures you’re always one paw ahead when it comes to your cat’s care. Because your cat deserves nothing but the best.",
+        "description": "Meow Manager is the ultimate productivity app for cat owners who want to pamper their pets with precision. Designed to streamline feline care, it helps you schedule feeding times, track vet appointments, and set reminders for litter box cleaning, grooming, and play sessions. You can log your cat’s moods and behaviors, gaining insights into their routines and preferences. The app’s AI-powered behavior analysis and nap tracking offer a deeper understanding of your cat’s lifestyle. With recurring treat alerts and health record storage, Meow Manager ensures your kitty’s needs are never overlooked. Lightweight at just 32MB, it’s perfect for any device. With over 230,000 downloads and a 4.8-star average rating, it’s a favorite among cat lovers. Whether you’re caring for a curious kitten or a chill senior cat, Meow Manager keeps you one paw ahead.",
         "size": 32,
         "reviews": 942,
         "ratingAvg": 4.8,
         "downloads": 230000,
         "ratings": [
             {
-                "name": "1 paw",
+                "name": "1 star",
                 "count": 20
             },
             {
-                "name": "2 paws",
+                "name": "2 stars",
                 "count": 35
             },
             {
-                "name": "3 paws",
+                "name": "3 stars",
                 "count": 120
             },
             {
-                "name": "4 paws",
+                "name": "4 stars",
                 "count": 250
             },
             {
-                "name": "5 paws",
+                "name": "5 stars",
                 "count": 517
             }
         ]
@@ -44,23 +44,23 @@
         "downloads": 750000,
         "ratings": [
             {
-                "name": "1 leaf",
+                "name": "1 star",
                 "count": 770
             },
             {
-                "name": "2 leaves",
+                "name": "2 stars",
                 "count": 970
             },
             {
-                "name": "3 leaves",
+                "name": "3 stars",
                 "count": 2240
             },
             {
-                "name": "4 leaves",
+                "name": "4 stars",
                 "count": 5510
             },
             {
-                "name": "5 leaves",
+                "name": "5 stars",
                 "count": 9000
             }
         ]
@@ -70,7 +70,7 @@
         "title": "PhotoGenie",
         "companyName": "PixelForge",
         "id": 3,
-        "description": "PixelPerfect AI is a next-gen photo editing app that uses powerful artificial intelligence to transform your images with just a tap. Whether you want to remove backgrounds, enhance lighting, retouch portraits, or apply cinematic filters, our AI does the heavy lifting instantly. Say goodbye to manual masking and complex tools — PixelPerfect offers features like AI skin smoothing, object removal, sky replacement, and style transfer, all in real-time. Ideal for content creators, photographers, and everyday users who want studio-quality results in seconds.",
+        "description": "PhotoGenie is a next-gen photo editing app powered by AI, designed for creators and casual users alike. With just a tap, you can enhance lighting, retouch portraits, remove backgrounds, and apply cinematic filters. Say goodbye to complex tools—PhotoGenie offers real-time features like skin smoothing, object removal, sky replacement, and style transfer. Whether you're polishing selfies or creating professional content, PhotoGenie delivers studio-quality results in seconds. With over 1.2 million downloads and a 4.7-star rating, it’s a favorite among photographers and influencers. At 80MB, it’s packed with power and precision. Transform your photos effortlessly with PhotoGenie.",
         "size": 80,
         "reviews": 2100,
         "ratingAvg": 4.7,
@@ -81,19 +81,19 @@
                 "count": 960
             },
             {
-                "name": "2 star",
+                "name": "2 stars",
                 "count": 990
             },
             {
-                "name": "3 star",
+                "name": "3 stars",
                 "count": 1180
             },
             {
-                "name": "4 star",
+                "name": "4 stars",
                 "count": 4400
             },
             {
-                "name": "5 star",
+                "name": "5 stars",
                 "count": 11370
             }
         ]
@@ -103,7 +103,7 @@
         "title": "MindEase",
         "companyName": "CalmNest",
         "id": 4,
-        "description": "MindEase is your personal guide to daily mindfulness and stress relief. With guided meditations, breathing exercises, sleep stories, and calming music, the app helps you unwind and reset your mind anytime, anywhere. Whether you're dealing with anxiety, struggling to sleep, or simply need a mindful moment, MindEase provides scientifically backed tools to support mental wellness. Designed for busy lives, our sessions range from 2-minute quick breaks to full 30-minute deep meditations. Calm your thoughts, improve focus, and build a consistent mindfulness routine — one breath at a time.",
+        "description": "MindEase is your personal guide to mindfulness and stress relief. Whether you're dealing with anxiety, struggling to sleep, or just need a moment of calm, MindEase offers guided meditations, breathing exercises, sleep stories, and soothing music. Sessions range from quick 2-minute breaks to deep 30-minute meditations, making it perfect for busy lifestyles. Backed by science, MindEase helps improve focus, reduce stress, and build a consistent wellness routine. With 800,000 downloads and a 4.6-star rating, it’s trusted by users worldwide. At 50MB, it’s compact yet powerful. Breathe easy and find your calm with MindEase.",
         "size": 50,
         "reviews": 1500,
         "ratingAvg": 4.6,
@@ -114,19 +114,19 @@
                 "count": 30
             },
             {
-                "name": "2 star",
+                "name": "2 stars",
                 "count": 60
             },
             {
-                "name": "3 star",
+                "name": "3 stars",
                 "count": 120
             },
             {
-                "name": "4 star",
+                "name": "4 stars",
                 "count": 390
             },
             {
-                "name": "5 star",
+                "name": "5 stars",
                 "count": 9900
             }
         ]
@@ -136,7 +136,7 @@
         "title": "Budget Buddy",
         "companyName": "FinWise",
         "id": 5,
-        "description": "MindEase is your personal guide to daily mindfulness and stress relief. With guided meditations, breathing exercises, sleep stories, and calming music, the app helps you unwind and reset your mind anytime, anywhere. Whether you're dealing with anxiety, struggling to sleep, or simply need a mindful moment, MindEase provides scientifically backed tools to support mental wellness. Designed for busy lives, our sessions range from 2-minute quick breaks to full 30-minute deep meditations. Calm your thoughts, improve focus, and build a consistent mindfulness routine — one breath at a time.",
+        "description": "Budget Buddy is your smart financial companion, helping you manage money with ease. Track expenses, set savings goals, and monitor your budget in real time. Whether you're planning for a vacation or just trying to cut back on spending, Budget Buddy offers intuitive tools to stay on top of your finances. With visual breakdowns, alerts, and personalized tips, it makes budgeting simple and stress-free. With 800,000 downloads and a 4.6-star rating, it’s a trusted tool for financial wellness. At 50MB, it’s efficient and user-friendly. Take control of your money—one smart decision at a time—with Budget Buddy.",
         "size": 50,
         "reviews": 1100,
         "ratingAvg": 4.6,
@@ -147,19 +147,19 @@
                 "count": 5545
             },
             {
-                "name": "2 star",
+                "name": "2 stars",
                 "count": 885
             },
             {
-                "name": "3 star",
+                "name": "3 stars",
                 "count": 1160
             },
             {
-                "name": "4 star",
+                "name": "4 stars",
                 "count": 33310
             },
             {
-                "name": "5 star",
+                "name": "5 stars",
                 "count": 55500
             }
         ]
@@ -180,19 +180,19 @@
                 "count": 55
             },
             {
-                "name": "2 star",
+                "name": "2 stars",
                 "count": 95
             },
             {
-                "name": "3 star",
+                "name": "3 stars",
                 "count": 170
             },
             {
-                "name": "4 star",
+                "name": "4 stars",
                 "count": 420
             },
             {
-                "name": "5 star",
+                "name": "5 stars",
                 "count": 1060
             }
         ]
@@ -213,19 +213,19 @@
                 "count": 35
             },
             {
-                "name": "2 star",
+                "name": "2 stars",
                 "count": 65
             },
             {
-                "name": "3 star",
+                "name": "3 stars",
                 "count": 140
             },
             {
-                "name": "4 star",
+                "name": "4 stars",
                 "count": 280
             },
             {
-                "name": "5 star",
+                "name": "5 stars",
                 "count": 380
             }
         ]
@@ -246,19 +246,19 @@
                 "count": 25
             },
             {
-                "name": "2 star",
+                "name": "2 stars",
                 "count": 50
             },
             {
-                "name": "3 star",
+                "name": "3 stars",
                 "count": 110
             },
             {
-                "name": "4 star",
+                "name": "4 stars",
                 "count": 360
             },
             {
-                "name": "5 star",
+                "name": "5 stars",
                 "count": 755
             }
         ]
@@ -279,19 +279,19 @@
                 "count": 40
             },
             {
-                "name": "2 star",
+                "name": "2 stars",
                 "count": 70
             },
             {
-                "name": "3 star",
+                "name": "3 stars",
                 "count": 160
             },
             {
-                "name": "4 star",
+                "name": "4 stars",
                 "count": 430
             },
             {
-                "name": "5 star",
+                "name": "5 stars",
                 "count": 1300
             }
         ]
@@ -301,7 +301,7 @@
         "title": "SecureVault: Password Manager & Safe",
         "companyName": "LockBox",
         "id": 10,
-        "description": "SecureVault is your trusted digital safe for storing passwords, credit cards, and sensitive personal data. Protect your information with military-grade encryption and access it easily with biometric login or a master password. Generate strong, unique passwords, autofill login details, and sync securely across all your devices. With SecureVault, your private data",
+        "description": "SecureVault is your trusted digital safe for storing passwords, credit cards, and sensitive personal data. Protect your information with military-grade encryption and access it easily with biometric login or a master password. Generate strong, unique passwords, autofill login details, and sync securely across all your devices. With SecureVault, your private data.",
         "size": 30,
         "reviews": 800,
         "ratingAvg": 4.2,
@@ -312,19 +312,19 @@
                 "count": 20
             },
             {
-                "name": "2 star",
+                "name": "2 stars",
                 "count": 40
             },
             {
-                "name": "3 star",
+                "name": "3 stars",
                 "count": 100
             },
             {
-                "name": "4 star",
+                "name": "4 stars",
                 "count": 250
             },
             {
-                "name": "5 star",
+                "name": "5 stars",
                 "count": 390
             }
         ]
@@ -345,19 +345,19 @@
                 "count": 30
             },
             {
-                "name": "2 star",
+                "name": "2 stars",
                 "count": 55
             },
             {
-                "name": "3 star",
+                "name": "3 stars",
                 "count": 120
             },
             {
-                "name": "4 star",
+                "name": "4 stars",
                 "count": 310
             },
             {
-                "name": "5 star",
+                "name": "5 stars",
                 "count": 435
             }
         ]
@@ -374,23 +374,23 @@
         "downloads": 2000000,
         "ratings": [
             {
-                "name": "1 star",
+                "name": "1  star",
                 "count": 100
             },
             {
-                "name": "2 star",
+                "name": "2  stars",
                 "count": 150
             },
             {
-                "name": "3 star",
+                "name": "3  stars",
                 "count": 300
             },
             {
-                "name": "4 star",
+                "name": "4  stars",
                 "count": 700
             },
             {
-                "name": "5 star",
+                "name": "5  stars",
                 "count": 1750
             }
         ]
@@ -411,19 +411,19 @@
                 "count": 90
             },
             {
-                "name": "2 star",
+                "name": "2 stars",
                 "count": 130
             },
             {
-                "name": "3 star",
+                "name": "3 stars",
                 "count": 270
             },
             {
-                "name": "4 star",
+                "name": "4 stars",
                 "count": 600
             },
             {
-                "name": "5 star",
+                "name": "5 stars",
                 "count": 1410
             }
         ]
@@ -444,19 +444,19 @@
                 "count": 35
             },
             {
-                "name": "2 star",
+                "name": "2 stars",
                 "count": 60
             },
             {
-                "name": "3 star",
+                "name": "3 stars",
                 "count": 140
             },
             {
-                "name": "4 star",
+                "name": "4 stars",
                 "count": 310
             },
             {
-                "name": "5 star",
+                "name": "5 stars",
                 "count": 455
             }
         ]
@@ -477,19 +477,19 @@
                 "count": 50
             },
             {
-                "name": "2 star",
+                "name": "2 stars",
                 "count": 80
             },
             {
-                "name": "3 star",
+                "name": "3 stars",
                 "count": 190
             },
             {
-                "name": "4 star",
+                "name": "4 stars",
                 "count": 500
             },
             {
-                "name": "5 star",
+                "name": "5 stars",
                 "count": 1380
             }
         ]
@@ -510,19 +510,19 @@
                 "count": 40
             },
             {
-                "name": "2 star",
+                "name": "2 stars",
                 "count": 70
             },
             {
-                "name": "3 star",
+                "name": "3 stars",
                 "count": 150
             },
             {
-                "name": "4 star",
+                "name": "4 stars",
                 "count": 320
             },
             {
-                "name": "5 star",
+                "name": "5 stars",
                 "count": 470
             }
         ]
@@ -543,19 +543,19 @@
                 "count": 2225
             },
             {
-                "name": "2 star",
+                "name": "2 stars",
                 "count": 4445
             },
             {
-                "name": "3 star",
+                "name": "3 stars",
                 "count": 11110
             },
             {
-                "name": "4 star",
+                "name": "4 stars",
                 "count": 22280
             },
             {
-                "name": "5 star",
+                "name": "5 stars",
                 "count": 44410
             }
         ]
@@ -576,19 +576,19 @@
                 "count": 30
             },
             {
-                "name": "2 star",
+                "name": "2 stars",
                 "count": 60
             },
             {
-                "name": "3 star",
+                "name": "3 stars",
                 "count": 130
             },
             {
-                "name": "4 star",
+                "name": "4 stars",
                 "count": 350
             },
             {
-                "name": "5 star",
+                "name": "5 stars",
                 "count": 830
             }
         ]
@@ -609,19 +609,19 @@
                 "count": 150
             },
             {
-                "name": "2 star",
+                "name": "2 stars",
                 "count": 240
             },
             {
-                "name": "3 star",
+                "name": "3 stars",
                 "count": 520
             },
             {
-                "name": "4 star",
+                "name": "4 stars",
                 "count": 1600
             },
             {
-                "name": "5 star",
+                "name": "5 stars",
                 "count": 2890
             }
         ]
@@ -642,19 +642,19 @@
                 "count": 70
             },
             {
-                "name": "2 star",
+                "name": "2 stars",
                 "count": 95
             },
             {
-                "name": "3 star",
+                "name": "3 stars",
                 "count": 300
             },
             {
-                "name": "4 star",
+                "name": "4 stars",
                 "count": 900
             },
             {
-                "name": "5 star",
+                "name": "5 stars",
                 "count": 1735
             }
         ]
