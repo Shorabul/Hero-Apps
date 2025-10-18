@@ -4,20 +4,35 @@ import InstalledAppCard from '../Components/InstalledAppCard';
 // import useApps from '../Hooks/useApps';
 import { FaLongArrowAltRight } from "react-icons/fa";
 import ShowLoadingForOneSecond from '../Components/ShowLoadingForOneSecond';
+// import { useOutletContext } from 'react-router';
 
 
 const Installation = () => {
+    // const { mainLoadingDone } = useOutletContext();
+    // const [newStor, setNewStor] = useState(getFromLocalStorage());
     const [newStor, setNewStor] = useState(() => getFromLocalStorage());
     const [sort, setSort] = useState('none');
-    const [showInitialLoading, setShowInitialLoading] = useState(true);
-
+    const [showSecondaryLoading, setShowSecondaryLoading] = useState(true);
     useEffect(() => {
         const timer = setTimeout(() => {
-            setShowInitialLoading(false);
+            setShowSecondaryLoading(false);
         }, 1000);
         return () => clearTimeout(timer);
     }, []);
-    if (showInitialLoading) {
+
+    // useEffect(() => {
+    //     if (mainLoadingDone) {
+    //         setShowSecondaryLoading(true);
+
+    //         const timer = setTimeout(() => {
+    //             setShowSecondaryLoading(false);
+    //         }, 1000); // show for 1 second
+
+    //         return () => clearTimeout(timer);
+    //     }
+    // }, [mainLoadingDone]);
+
+    if (showSecondaryLoading) {
         return (<div className='flex justify-center items-center min-h-[50vh]'>
             <ShowLoadingForOneSecond />
         </div>)
@@ -32,9 +47,9 @@ const Installation = () => {
         }
     })();
     const handleRemove = id => {
-        removeFromLocalStorage(id)
+        removeFromLocalStorage(id);// updates localStorage
         // setNewStor(newStor);
-        setNewStor(prev => prev.filter(p => p.id !== id))
+        setNewStor(prev => prev.filter(p => p.id !== id));// updates React state
     }
     return (
         <div className='w-11/12 mx-auto space-y-6 md:space-y-8 lg:space-y-10'>

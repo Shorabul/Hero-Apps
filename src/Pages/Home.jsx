@@ -2,17 +2,32 @@ import React, { useEffect, useState } from 'react';
 import Banner from '../Components/Banner';
 import TrendingApps from '../Components/TrendingApps';
 import ShowLoadingForOneSecond from '../Components/ShowLoadingForOneSecond';
+// import { useOutletContext } from 'react-router';
 
 const Home = () => {
-    const [showInitialLoading, setShowInitialLoading] = useState(true);
+    // const { mainLoadingDone } = useOutletContext();
+
+    const [showSecondaryLoading, setShowSecondaryLoading] = useState(true);
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            setShowInitialLoading(false);
+            setShowSecondaryLoading(false);
         }, 1000);
         return () => clearTimeout(timer);
     }, []);
-    if (showInitialLoading) {
+
+    // useEffect(() => {
+    //     if (mainLoadingDone) {
+    //         setShowSecondaryLoading(true);
+
+    //         const timer = setTimeout(() => {
+    //             setShowSecondaryLoading(false);
+    //         }, 1000); // show for 1 second
+
+    //         return () => clearTimeout(timer);
+    //     }
+    // }, [mainLoadingDone]);
+    if (showSecondaryLoading) {
         return (<div className='flex justify-center items-center min-h-[50vh]'>
             <ShowLoadingForOneSecond />
         </div>)

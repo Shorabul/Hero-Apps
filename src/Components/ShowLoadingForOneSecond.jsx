@@ -14,7 +14,7 @@ const ShowLoadingForOneSecond = () => {
 
     return (
         <div>
-            {showLoading ? <Loading /> : <p className="text-center text-xl">Loading complete!</p>}
+            {showLoading ? <Loading /> : ""}
         </div>
     );
 };
